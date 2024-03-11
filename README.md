@@ -23,6 +23,7 @@ EMAIL_SECRET_KEY=您的秘钥
 
 向部署的无服务器函数发送以下 JSON 载荷的 POST 请求：
 
+```
 {
   "key": "您的秘钥",
   "email": {
@@ -33,6 +34,7 @@ EMAIL_SECRET_KEY=您的秘钥
   }
 }
 
+```
 请确保替换 您的秘钥、recipient@example.com 和邮件内容为您自己的值。
 
 ## 使用的技术
